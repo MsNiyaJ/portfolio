@@ -1,25 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import Navbar from './navbar/Navbar';
 
-function App() {
+// http://zoyothemes.com/queue/layout/index-parallax.html#resume
+// https://www.thinkful.com/blog/how-to-get-a-job-as-a-front-end-developer/
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Navbar />
     </div>
   );
-}
+};
 
 export default App;
