@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+
+.hero-img {
+  background-image: linear-gradient(
+      rgba(112, 112, 112, 0.9),
+      rgba(160, 52, 115, 0.8)
+    ),
+    url(/public/images/laptop2.jpeg);
+}
