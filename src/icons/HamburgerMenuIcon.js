@@ -1,7 +1,7 @@
 import React from 'react';
 
 const HamburgerMenuIcon = ({
-  className = 'h-8 w-8 text-white cursor-pointer',
+  className = 'h-8 w-8 text-black cursor-pointer',
 }) => {
   return (
     <div>

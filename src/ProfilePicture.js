@@ -5,7 +5,7 @@ const ProfilePicture = () => {
     <img
       src="/images/profile-pic.jpeg"
       alt=""
-      className="rounded-full w-80 h-80 border-4 border-white"
+      className="rounded-full w-52 h-52 sm:w-80 sm:h-80 border-4 border-white hover:scale-90 duration-300"
     />
   );
 };

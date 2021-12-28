@@ -13,10 +13,6 @@ const Navitems = [
   },
   {
     href: '#!',
-    content: `Resume`,
-  },
-  {
-    href: '#!',
     content: `Contact`,
   },
 ];

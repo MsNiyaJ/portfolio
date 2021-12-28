@@ -4,11 +4,11 @@ import Menu from './Menu';
 
 const Navbar = () => {
   return (
-    <div className="bg-gray-600 text-white">
+    <div className="bg-white text-black sticky top-0 border-b-2 z-50">
       <nav>
         <div className="flex justify-between items-center p-3">
-          <div className="text-2xl font-bold">
-            <span className="text-pink-500">Shaniya</span> Malcolm
+          <div className="text-xl font-bold">
+            <span className="text-pink-500">SHANIYA</span> MALCOLM /&gt;
           </div>
           {/* Mobile Navbar */}
           <DropdownMenu />
