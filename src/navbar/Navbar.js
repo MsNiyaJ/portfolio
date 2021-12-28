@@ -8,7 +8,7 @@ const Navbar = () => {
       <nav>
         <div className="flex justify-between items-center p-3">
           <div className="text-2xl font-bold">
-            <span className="text-rose-400">Shaniya</span> Malcolm
+            <span className="text-pink-500">Shaniya</span> Malcolm
           </div>
           {/* Mobile Navbar */}
           <DropdownMenu />

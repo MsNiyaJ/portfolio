@@ -19,7 +19,7 @@ const DropdownMenu = () => {
       <div>
         {open && (
           <div className="relative">
-            <div className="border-t-4 border-t-rose-400 flex flex-col gap-2 absolute -right-3 bg-gray-600 mt-3 pb-2">
+            <div className="border-t-4 border-t-pink-500 flex flex-col gap-2 absolute -right-3 bg-gray-600 mt-3 pb-2">
               {Navitems.map((item) => {
                 return (
                   <a
