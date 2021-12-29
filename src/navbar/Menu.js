@@ -3,7 +3,7 @@ import Navitems from './Navitems';
 import GithubIcon from '../icons/GithubIcon';
 import LinkedinIcon from '../icons/LinkedinIcon';
 
-const Menu = () => {
+const Menu = ({ textColor }) => {
   return (
     <div className="hidden sm:flex justify-evenly items-center text-lg w-3/5">
       {Navitems.map((item) => {
@@ -11,7 +11,7 @@ const Menu = () => {
           <a
             key={item.content}
             href={item.href}
-            className="text-center hover:text-rose-400 hover:translate-x-1 duration-300"
+            className={`text-center hover:text-pink-500 hover:translate-x-1 duration-300 ${textColor}`}
           >
             <p>{item.content}</p>
           </a>

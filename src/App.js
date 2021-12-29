@@ -1,4 +1,3 @@
-import Navbar from './navbar/Navbar';
 import HeroSection from './HeroSection';
 import About from './About';
 import Projects from './Projects';
@@ -8,9 +7,9 @@ import Projects from './Projects';
 const App = () => {
   return (
     <div id="home" className="bg-slate-50 ">
-      <Navbar />
       <HeroSection />
       <About />
+      <Projects />
     </div>
   );
 };
