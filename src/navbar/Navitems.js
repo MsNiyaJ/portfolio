@@ -1,10 +1,10 @@
 const Navitems = [
   {
-    href: '#!',
+    href: '#home',
     content: `Home`,
   },
   {
-    href: '#!',
+    href: '#about',
     content: `About`,
   },
   {
