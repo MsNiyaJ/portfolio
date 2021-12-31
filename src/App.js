@@ -6,7 +6,7 @@ import Projects from './projects/Projects';
 // https://www.thinkful.com/blog/how-to-get-a-job-as-a-front-end-developer/
 const App = () => {
   return (
-    <div id="home" className="bg-slate-50 ">
+    <div id="home" className="App">
       <HeroSection />
       <About />
       <Projects />
