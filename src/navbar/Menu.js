@@ -5,7 +5,7 @@ import LinkedinIcon from '../icons/LinkedinIcon';
 
 const Menu = ({ textColor }) => {
   return (
-    <div className="hidden sm:flex justify-evenly items-center text-lg w-3/5">
+    <div className="hidden sm:flex justify-around items-center text-lg w-3/5">
       {Navitems.map((item) => {
         return (
           <a
@@ -19,11 +19,15 @@ const Menu = ({ textColor }) => {
       })}
       {/* Social Media */}
       <div className="flex justify-center gap-2 items-center py-2">
-        <a href="#!">
-          <GithubIcon className="fill-pink-500 hover:fill-gray-600" />
+        <a href="https://github.com/MsNiyaJ" target="_blank" rel="noreferrer">
+          <GithubIcon className="fill-pink-500 hover:fill-black transition-all duration-500" />
         </a>
-        <a href="#!">
-          <LinkedinIcon className="fill-pink-500 hover:fill-gray-600" />
+        <a
+          href="https://www.linkedin.com/in/shaniya-malcolm/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <LinkedinIcon className="fill-pink-500 hover:fill-black transition-all duration-500" />
         </a>
       </div>
     </div>
