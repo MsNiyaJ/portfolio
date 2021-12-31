@@ -22,7 +22,6 @@ const HeroSection = () => {
 
           <a href={resume} download="ShaniyasResume">
             <button
-              id="about"
               type="button"
               className="rounded-full bg-gray-600 px-4 py-2 border border-white hover:bg-yellow-500 hover:text-white hover:font-bold"
             >
