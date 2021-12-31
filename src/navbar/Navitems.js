@@ -8,7 +8,7 @@ const Navitems = [
     content: `About`,
   },
   {
-    href: '#!',
+    href: '#projects',
     content: `Projects`,
   },
   {
