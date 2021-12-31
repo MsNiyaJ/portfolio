@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  @apply bg-slate-50;
 }
 
 .App-logo {
@@ -72,4 +73,9 @@
 
 .card-zoom:hover .card-zoom-text {
   @apply scale-100 opacity-100;
+}
+
+#about,
+#projects {
+  scroll-margin-top: 6em;
 }
