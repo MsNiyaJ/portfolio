@@ -44,3 +44,32 @@
     ),
     url(/public/images/laptop2.jpeg);
 }
+
+/* Card Zoom Styles from: https://daily-dev-tips.com/posts/tailwind-zooming-background-images/ */
+.card-zoom {
+  @apply relative flex items-end justify-start m-3 overflow-hidden shadow-xl w-full md:w-80 h-80 rounded-2xl;
+}
+
+.card-zoom-image {
+  @apply absolute w-full h-full transition-all duration-500 ease-in-out transform bg-center bg-cover;
+}
+
+.card-image-overlay {
+  @apply absolute w-full h-full;
+}
+
+.card-zoom-text {
+  @apply absolute flex flex-col gap-1 p-6 font-black transition-all duration-500 ease-in-out transform scale-150 text-gray-50 opacity-0;
+}
+
+.card-zoom:hover .card-image-overlay {
+  @apply scale-150 bg-gradient-to-t from-blue-500 to-pink-400 opacity-60;
+}
+
+.card-zoom:hover .card-zoom-image {
+  @apply scale-150;
+}
+
+.card-zoom:hover .card-zoom-text {
+  @apply scale-100 opacity-100;
+}
