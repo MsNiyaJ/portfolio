@@ -13,10 +13,10 @@ const Navbar = () => {
     <div
       className={`${
         scroll
-          ? 'bg-white text-black'
-          : 'bg-white sm:bg-transparent text-white shadow-2xl'
+          ? 'bg-white text-black shadow-gray-200 shadow-md'
+          : 'bg-white sm:bg-transparent text-white'
       } 
-        text-black sticky top-0 z-50 ease-in transition-all duration-300`}
+        text-black fixed w-full top-0 z-50 ease-in transition-all duration-300`}
     >
       <nav>
         <div className="flex justify-between items-center p-3">
