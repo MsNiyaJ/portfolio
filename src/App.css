@@ -47,7 +47,7 @@
 
 /* Card Zoom Styles from: https://daily-dev-tips.com/posts/tailwind-zooming-background-images/ */
 .card-zoom {
-  @apply relative flex items-end justify-start m-3 overflow-hidden shadow-xl w-full md:w-80 h-80 rounded-2xl;
+  @apply relative flex items-end justify-start m-3 overflow-hidden shadow-xl w-full md:w-80 h-80 rounded-2xl border-t;
 }
 
 .card-zoom-image {
@@ -76,5 +76,5 @@
 
 #about,
 #projects {
-  scroll-margin-top: 6em;
+  scroll-margin-top: 5em;
 }
