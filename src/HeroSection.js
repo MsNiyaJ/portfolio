@@ -1,8 +1,9 @@
 import React from 'react';
 import ProfilePicture from './ProfilePicture';
 import Navbar from './navbar/Navbar';
-import './App.css';
 import resume from './docs/resume.pdf';
+import DownloadIcon from './icons/DownloadIcon';
+import './App.css';
 
 const HeroSection = () => {
   return (
@@ -23,9 +24,10 @@ const HeroSection = () => {
           <a href={resume} download="ShaniyasResume">
             <button
               type="button"
-              className="rounded-full bg-gray-600 px-4 py-2 border border-white hover:bg-yellow-500 hover:text-white hover:font-bold"
+              className="flex gap-2 rounded-full bg-gray-600 px-4 py-2 border border-white hover:bg-yellow-500 hover:text-white hover:font-bold"
             >
               Download Resume
+              <DownloadIcon />
             </button>
           </a>
         </div>
