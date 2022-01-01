@@ -4,8 +4,8 @@ import ProjectItems from './ProjectItems';
 
 const Projects = () => {
   return (
-    <div id="projects">
-      <div className="sm:container sm:mx-auto">
+    <div id="projects" className="border-b">
+      <div className="pt-5 pb-12 sm:container sm:mx-auto">
         <h1 className="text-3xl md:text-4xl text-center">
           My Work & Portfolio
         </h1>
