@@ -1,7 +1,6 @@
 import React from 'react';
 import Navitems from './Navitems';
-import GithubIcon from '../icons/GithubIcon';
-import LinkedinIcon from '../icons/LinkedinIcon';
+import SocialMedia from '../SocialMedia';
 
 const Menu = ({ textColor }) => {
   return (
@@ -17,19 +16,7 @@ const Menu = ({ textColor }) => {
           </a>
         );
       })}
-      {/* Social Media */}
-      <div className="flex justify-center gap-2 items-center py-2">
-        <a href="https://github.com/MsNiyaJ" target="_blank" rel="noreferrer">
-          <GithubIcon className="fill-pink-500 hover:fill-black transition-all duration-500" />
-        </a>
-        <a
-          href="https://www.linkedin.com/in/shaniya-malcolm/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <LinkedinIcon className="fill-pink-500 hover:fill-black transition-all duration-500" />
-        </a>
-      </div>
+      <SocialMedia />
     </div>
   );
 };

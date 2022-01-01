@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
 import Hamburger from '../icons/HamburgerMenuIcon';
 import Navitems from './Navitems';
-import GithubIcon from '../icons/GithubIcon';
-import LinkedinIcon from '../icons/LinkedinIcon';
+import SocialMedia from '../SocialMedia';
 
 const DropdownMenu = () => {
   const [open, setOpen] = useState(false);
@@ -31,15 +30,7 @@ const DropdownMenu = () => {
                   </a>
                 );
               })}
-              {/* Social Media */}
-              <div className="flex justify-center gap-2 items-center py-2">
-                <a href="#!">
-                  <GithubIcon className="fill-pink-500 hover:fill-gray-600" />
-                </a>
-                <a href="#!">
-                  <LinkedinIcon className="fill-pink-500 hover:fill-gray-600" />
-                </a>
-              </div>
+              <SocialMedia />
             </div>
           </div>
         )}
