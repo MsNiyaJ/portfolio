@@ -1,6 +1,7 @@
 import HeroSection from './HeroSection';
 import About from './About';
 import Projects from './projects/Projects';
+import Contact from './Contact';
 
 // http://zoyothemes.com/queue/layout/index-parallax.html#resume
 // https://www.thinkful.com/blog/how-to-get-a-job-as-a-front-end-developer/
@@ -10,6 +11,7 @@ const App = () => {
       <HeroSection />
       <About />
       <Projects />
+      <Contact />
     </div>
   );
 };

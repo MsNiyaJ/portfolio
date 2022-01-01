@@ -12,7 +12,7 @@ const Navitems = [
     content: `Projects`,
   },
   {
-    href: '#!',
+    href: '#contact',
     content: `Contact`,
   },
 ];
