@@ -9,8 +9,7 @@ const PersonalDetails = () => {
             <h1 className="text-lg font-semibold">Personal Details</h1>
           </div>
           <p className=" text-sm">
-            Email:{' '}
-            <span className="text-gray-600">shaniyasmalcolm@gmail.com</span>
+            Location: <span className="text-gray-600">NYC Area</span>
           </p>
           <p className=" text-sm">
             Language: <span className="text-gray-600">English</span>
