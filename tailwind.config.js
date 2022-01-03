@@ -18,7 +18,10 @@ module.exports = {
     extend: {
       backgroundImage: {
         laptop: "url('../public/images/laptop2.jpeg')",
-        google: "url('../public/images/projects/google.png')",
+        google: "url('../public/images/projects/google.jpg')",
+        sudoku: "url('../public/images/projects/sudoku.png')",
+        landingPage: "url('../public/images/projects/dance.jpg')",
+        technicalDoc: "url('../public/images/projects/technicaldoc.png')",
       },
       maxWidth: {
         40: '10rem',
