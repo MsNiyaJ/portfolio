@@ -7,7 +7,7 @@ import './App.css';
 
 const HeroSection = () => {
   return (
-    <div className="bg-laptop bg-no-repeat bg-cover hero-img">
+    <div className="bg-no-repeat bg-cover hero-img">
       <Navbar />
       <div className="flex justify-center h-full pt-20 pb-40">
         <div className="flex flex-col items-center text-center max-w-lg px-5 text-white">
