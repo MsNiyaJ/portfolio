@@ -9,7 +9,7 @@ const Projects = () => {
         <h1 className="text-3xl md:text-4xl text-center">
           My Work & Portfolio
         </h1>
-        <div className="pt-10 flex flex-wrap justify-center">
+        <div className="pt-10 flex flex-wrap x-lg:flex-nowrap justify-center">
           {ProjectItems.map((proj) => {
             return (
               <Project
