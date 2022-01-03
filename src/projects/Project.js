@@ -3,7 +3,7 @@ import React from 'react';
 const Project = ({ image, name, src, url }) => {
   return (
     <div className="card-zoom">
-      <div className={`card-zoom-image bg-${image}`}></div>
+      <div className={`card-zoom-image ${image}`}></div>
       <div className="card-image-overlay"></div>
       <div className="card-zoom-text">
         <a href={url} target="_blank" rel="noreferrer">
