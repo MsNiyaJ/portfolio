@@ -17,6 +17,7 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
+        profile: "url('../public/images/profile-pic.jpeg')",
         laptop: "url('../public/images/laptop2.jpeg')",
         google: "url('../public/images/projects/google.jpg')",
         sudoku: "url('../public/images/projects/sudoku.png')",
