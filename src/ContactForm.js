@@ -86,9 +86,8 @@ const ContactForm = () => {
             required
             aria-label="message"
             name="message"
-            rows="8"
             placeholder="Message :"
-            className="border-2 border-grey-600 placeholder-slate-500 p-2 w-full rounded-md outline-pink-200"
+            className="border-2 border-grey-600 placeholder-slate-500 p-2 w-full rounded-md outline-pink-200 min-h-52"
             onChange={handleChange}
           />
           <div className="self-end mt-6 md:mt-12">
