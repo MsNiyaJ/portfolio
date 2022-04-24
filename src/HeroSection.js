@@ -1,7 +1,7 @@
 import React from 'react';
 import ProfilePicture from './ProfilePicture';
 import Navbar from './navbar/Navbar';
-import resume from './docs/resume2.pdf';
+import resume from './docs/resume.pdf';
 import DownloadIcon from './icons/DownloadIcon';
 import './App.css';
 
