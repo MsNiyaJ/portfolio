@@ -63,7 +63,7 @@
 }
 
 .card-zoom:hover .card-image-overlay {
-  @apply scale-150 bg-gradient-to-t from-blue-500 to-pink-400 opacity-60;
+  @apply scale-150 bg-gradient-to-t from-blue-500 to-pink-400 opacity-90;
 }
 
 .card-zoom:hover .card-zoom-image {

@@ -11,15 +11,8 @@ const Projects = () => {
         </h1>
         <div className="pt-10 flex flex-wrap x-lg:flex-nowrap justify-center">
           {ProjectItems.map((proj) => {
-            return (
-              <Project
-                key={proj.name}
-                name={proj.name}
-                url={proj.url}
-                src={proj.src}
-                image={proj.image}
-              />
-            );
+            console.log(proj);
+            return <Project key={proj.name} data={proj} />;
           })}
         </div>
       </div>
