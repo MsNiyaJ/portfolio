@@ -25,13 +25,13 @@ const ProjectItems = [
     image: 'bg-landingPage',
   },
   {
-    name: 'Technical Documentation',
+    name: 'My Tasks',
     description:
-      'A technical documentation that goes over the basics of JavaScript.',
-    tools: ['HTML', 'CSS'],
-    webURL: 'https://codepen.io/msniyaj/full/zYwBjbQ',
-    srcCode: 'https://codepen.io/msniyaj/pen/zYwBjbQ',
-    image: 'bg-technicalDoc',
+      'A to-do list that allows the user to add, edit, and delete tasks. The user can also mark tasks as complete.',
+    tools: ['React', 'Redux', 'Typescript'],
+    webURL: 'https://msniyaj.github.io/taskmanager/',
+    srcCode: 'https://github.com/MsNiyaJ/taskmanager',
+    image: 'bg-myTasks',
   },
 ];
 

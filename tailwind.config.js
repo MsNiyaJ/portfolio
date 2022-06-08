@@ -18,7 +18,7 @@ module.exports = {
         google: "url('../public/images/projects/google.jpg')",
         sudoku: "url('../public/images/projects/sudoku.png')",
         landingPage: "url('../public/images/projects/dance.jpg')",
-        technicalDoc: "url('../public/images/projects/technicaldoc.png')",
+        myTasks: "url('../public/images/projects/mytasks.jpg')",
       },
       maxWidth: {
         40: '10rem',
