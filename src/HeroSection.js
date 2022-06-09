@@ -1,7 +1,7 @@
 import React from 'react';
 import ProfilePicture from './ProfilePicture';
 import Navbar from './navbar/Navbar';
-import resume from './docs/resume.pdf';
+import resume from './docs/Shaniya_Malcolm_06.09.22.pdf';
 import DownloadIcon from './icons/DownloadIcon';
 import './App.css';
 
@@ -21,7 +21,7 @@ const HeroSection = () => {
             </p>
           </div>
 
-          <a href={resume} download="ShaniyasResume">
+          <a href={resume} download="ShaniyaMalcolmResume">
             <button
               type="button"
               className="flex gap-2 rounded-full bg-gray-600 px-4 py-2 border border-white hover:bg-yellow-500 hover:text-white hover:font-bold"
