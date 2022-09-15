@@ -9,11 +9,10 @@ const ProjectItems = [
   },
   {
     name: 'Sudoku',
-    description:
-      'A sudoku game that random generates a sudoku puzzle and allows the user to fill a 9x9 grid so that each column, row, and block have digits from 1 to 9',
-    tools: ['HTML', 'CSS', 'JS'],
-    webURL: 'https://www.albany.edu/~sm162939/Sudoku/game/sudoku.html',
-    srcCode: 'https://github.com/MsNiyaJ/projects/tree/master/SudokuGame',
+    description: 'A simple sudoku game with three difficulties.',
+    tools: ['React', 'Typescript', 'CSS'],
+    webURL: 'https://msniyaj.github.io/sudoku/',
+    srcCode: 'https://github.com/MsNiyaJ/sudoku',
     image: 'bg-sudoku',
   },
   {
