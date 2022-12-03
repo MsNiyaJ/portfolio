@@ -17,19 +17,22 @@ const HeroSection = () => {
               Hello, I'm Shaniya!
             </h1>
             <p className="text-xl md:text-3xl font-bold">
-              A Passionate Frontend Developer
+              A Passionate Software Developer
             </p>
           </div>
 
-          <a href={resume} download="ShaniyaMalcolmResume">
-            <button
-              type="button"
-              className="flex gap-2 rounded-full bg-gray-600 px-4 py-2 border border-white hover:bg-yellow-500 hover:text-white hover:font-bold"
-            >
-              Download Resume
-              <DownloadIcon />
-            </button>
-          </a>
+          {/**
+          TODO: Update resume and then put this back
+            <a href={resume} download="ShaniyaMalcolmResume">
+              <button
+                type="button"
+                className="flex gap-2 rounded-full bg-gray-600 px-4 py-2 border border-white hover:bg-yellow-500 hover:text-white hover:font-bold"
+              >
+                Download Resume
+                <DownloadIcon />
+              </button>
+            </a>
+            */}
         </div>
       </div>
     </div>
