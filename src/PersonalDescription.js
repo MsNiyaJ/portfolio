@@ -7,7 +7,7 @@ const PersonalDescription = () => {
         Software Developer
       </h1>
       <p className="md:text-lg mt-2 text-gray-600">
-        I am motivated developer with over a year of experience building and
+        I am a motivated developer with over two years of experience building and
         maintaining beautiful, responsive websites. Proficient in React.
       </p>
       <p className="md:text-lg pt-2 text-gray-600">
