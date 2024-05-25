@@ -1,9 +1,9 @@
-import React from 'react';
-import ProfilePicture from './ProfilePicture';
-import Navbar from './navbar/Navbar';
-import resume from './docs/Shaniya_Malcolm_06.09.22.pdf';
-import DownloadIcon from './icons/DownloadIcon';
-import './App.css';
+import React from "react";
+import ProfilePicture from "./ProfilePicture";
+import Navbar from "./navbar/Navbar";
+// import resume from './docs/Shaniya_Malcolm_06.09.22.pdf';
+// import DownloadIcon from './icons/DownloadIcon';
+import "./App.css";
 
 const HeroSection = () => {
   return (

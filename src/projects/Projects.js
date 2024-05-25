@@ -1,6 +1,6 @@
-import React from 'react';
-import Project from './Project';
-import ProjectItems from './ProjectItems';
+import React from "react";
+import Project from "./Project";
+import ProjectItems from "./ProjectItems";
 
 const Projects = () => {
   return (
@@ -11,7 +11,6 @@ const Projects = () => {
         </h1>
         <div className="pt-10 flex flex-wrap x-lg:flex-nowrap justify-center">
           {ProjectItems.map((proj) => {
-            console.log(proj);
             return <Project key={proj.name} data={proj} />;
           })}
         </div>
