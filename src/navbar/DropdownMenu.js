@@ -24,7 +24,7 @@ const DropdownMenu = () => {
                   <a
                     key={item.content}
                     href={item.href}
-                    className="text-center hover:bg-pink-200 hover:text-black w-full px-12 py-3"
+                    className="text-center text-black hover:bg-pink-200 w-full px-12 py-3"
                   >
                     <p>{item.content}</p>
                   </a>

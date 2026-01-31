@@ -1,9 +1,8 @@
-import React from "react";
-import ProfilePicture from "./ProfilePicture";
-import Navbar from "./navbar/Navbar";
+import ProfilePicture from './ProfilePicture';
+import Navbar from './navbar/Navbar';
 // import resume from './docs/Shaniya_Malcolm_06.09.22.pdf';
 // import DownloadIcon from './icons/DownloadIcon';
-import "./App.css";
+import './App.css';
 
 const HeroSection = () => {
   return (
@@ -17,7 +16,7 @@ const HeroSection = () => {
               Hello, I'm Shaniya!
             </h1>
             <p className="text-xl md:text-3xl font-bold">
-              A Passionate Software Developer
+              Full-Stack Software Developer
             </p>
           </div>
 
